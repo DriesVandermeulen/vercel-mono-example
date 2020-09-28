@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-        "build": "lerna run build --stream"
+        "bootstrap": "./node_modules/.bin/lerna bootstrap --force-local"
     },
     "dependencies": {
         "lerna": "^3.22.1"
